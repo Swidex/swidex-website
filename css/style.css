@@ -1,0 +1,96 @@
+/*
+Primary: #b71c1c
+Light: #7f0000
+Dark: #f05545
+
+Text Light: #F5F5F5
+Text Med: #555555
+Text Dark: #111111
+*/
+
+html, body {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #F5F5F5;
+}
+
+#splash {
+  position: relative; top: 0;
+  width: 100vw; height: 12em;
+  background-color: #222222;
+}
+
+#header {
+  font-family: "Roboto"; font-size: 3em; color: #F5F5F5; font-weight: 600;
+  padding: 1em 0 0 .5em; line-height: 0; text-align: left;
+}
+
+#navbar {
+  background-color: #222222;
+  position: absolute; bottom: 1em;
+  padding: 0 0 0 1.5em;
+}
+
+.page-button {
+  font-family: "Roboto"; font-size: .8em; color: #888888; font-weight: 600;
+  padding: 1em 2em 1em 2em;
+  transition: 0.3s; cursor: pointer;
+}
+
+.selected {
+  color: #F5F5F5;
+  border-bottom: solid 3px #f05545;
+}
+
+.page-button:hover {
+  color: #F5F5F5;
+}
+
+.section-container {
+  position: absolute; width: 50%; left: 50%; transform: translateX(-50%); margin: 0 auto;
+}
+
+.section {
+   padding: 0 0 5em 0;
+}
+
+#about {
+  padding-top: 5em;
+}
+
+.section-title {
+  font-family: "Roboto"; font-size: 1.15em; color: #111111; font-weight: 400;
+}
+
+.section-desc {
+  font-family: "Roboto"; font-size: 1em; color: #111111; font-weight: 300;
+  padding-top: 2em;
+}
+
+.project-container {
+  padding-top: 2em;
+}
+
+.project-img {
+  width: 60%;
+}
+
+.project-desc {
+  width: 38%;
+  float: right;
+}
+
+#footer {
+  width: 100vw; padding: 2em 0 2em 0; bottom: 0;
+  background-color: #222222;
+  transform: translateX(-25%);
+}
+
+#copyright {
+  color: #F5F5F5;
+  text-align: center;
+}
