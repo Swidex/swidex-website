@@ -4,26 +4,26 @@
   <title>Ben Hall</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/shadow.css">
+  <link rel="stylesheet" href="css/nav.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
 </head>
 
 <body>
 
-  <div id="splash" class="z-depth-1">
+  <div id="splash">
 
-    <div id="header">
-      BH
-    </div>
-
-    <div id="navbar">
-      <a class="page-button selected">ABOUT</a>
-      <a class="page-button">PROJECTS</a>
-      <a class="page-button">CONTACT</a>
-    </div>
+    <img id="header" src="img/logo-white.svg">
 
   </div>
   <div class="section-container">
+
+    <ul class="z-depth-1">
+      <li><a class="active" onclick="scrollToTarget('splash')">HOME</a></li>
+      <li><a onclick="scrollToTarget('about')">ABOUT</a></li>
+      <li><a onclick="scrollToTarget('projects')">PROJECTS</a></li>
+      <li><a onclick="scrollToTarget('social')">SOCIAL</a></li>
+    </ul>
 
     <div class="section" id="about">
 
@@ -48,14 +48,16 @@
         PROJECTS
       </p>
 
-      <div class="project-container">
+      <div class="project-container findining">
 
-        <img class="project-img z-depth-1" src="img/FINDining-screenshot.png">
+        <img class="project-img z-depth-2" src="img/FINDining-screenshot.png">
+
+        <br>
 
         <div class="project-desc">
 
           <p class="section-title">
-            FINDining
+            FINDining <a href="http://www.findining.org" class="project-links">VISIT</a>
           </p>
 
           <p class="section-desc">
@@ -67,14 +69,16 @@
 
       </div>
 
-      <div class="project-container">
+      <div class="project-container rgb">
 
-        <img class="project-img z-depth-1" src="img/rgb-screenshot.png">
+        <img class="project-img z-depth-2" src="img/rgb-screenshot.png">
+
+        <br>
 
         <div class="project-desc">
 
           <p class="section-title">
-            RGB
+            RGB<a href="https://github.com/Swidex/rgb" class="project-links">SOURCE</a><a href="https://github.com/Swidex/rgb/archive/master.zip" class="project-links">DOWNLOAD</a>
           </p>
 
           <p class="section-desc">
@@ -87,12 +91,40 @@
 
       </div>
 
+      <div class=" project-container ubuntu">
+
+        <img class="project-img z-depth-2" src="img/ubuntu-screenshot.png">
+
+        <br>
+
+        <div class="project-desc">
+
+          <p class="section-title">
+            AutoSec<a href="https://github.com/Swidex/ubuntu14.04-hardening-script" class="project-links">SOURCE</a><a href="https://github.com/Swidex/ubuntu14.04-hardening-script/archive/master.zip" class="project-links">DOWNLOAD</a>
+          </p>
+
+          <p class="section-desc">
+            This ubuntu script is a modular, bash program that secures various parts of the Ubuntu 14.04 Operating System.
+            The programs is specifically being scripting towards the cyber security competition, CyberPatriots.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="social">
+      <a href="https://www.github.com/swidex" class="outline-button">GITHUB</a>
+      <a href="https://www.linkedin.com/in/bhall912/" class="outline-button">LINKEDIN</a>
+      <a href="mailto:ben1734.hall@gmail.com" class="outline-button">EMAIL</a>
+      <a href="http://www.twitter.com/swidexx" class="outline-button">TWITTER</a>
     </div>
 
     <div class="z-depth-1" id="footer">
 
       <p id="copyright">
-        &copy;
+        Copyright &copy;
       	<script type="text/javascript">
       		document.write(new Date().getFullYear());
       	</script>
