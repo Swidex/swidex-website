@@ -97,6 +97,7 @@ body {
 
 #footer {
   width: 100vw; padding: 1.5em 0 1.5em 0; bottom: 0;
+  font-family: "Roboto";font-size: .9em; font-weight: 600;
   background-color: #173444;
   transform: translateX(-25%);
 }
