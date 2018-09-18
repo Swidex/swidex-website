@@ -9,11 +9,27 @@ body {
 }
 
 .header-background {
-  background-color: #3f51b5; width: 100vw; height: 30vh; position: absolute;
+  background-color: #3f51b5; width: 100vw; height: 400px; position: absolute;
 }
 
 .header-container {
+  padding-top: 50px;
   width: 60vw;
   margin: 0 auto;
-  line-height: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header-text {
+	letter-spacing: .15em;
+	margin-top: 0px;
+}
+
+.header-img {
+	width: 200px;
+}
+
+.header-divide {
+	margin-top: -5px;
+	width: 50%;
 }
