@@ -79,7 +79,11 @@ body {
   width: 100%;
 }
 
-.rgb {
+.project-left {
+  float: left;
+}
+
+.project-right {
   float: right;
 }
 
